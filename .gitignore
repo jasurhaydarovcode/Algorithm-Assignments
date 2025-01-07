@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+
+# .NET
+bin/
+obj/
+
+# Log files
+*.log
+
+# Thumbs.db
+Thumbs.db
+
+# Desktop.ini
+desktop.ini
