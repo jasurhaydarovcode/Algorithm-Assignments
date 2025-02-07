@@ -8,12 +8,12 @@ namespace FaylgaWriteQilish
         static void Main(string[] args)
         {
             /*
-            Console.WriteLine("Butun sonlar space bilan kiritilsin: ");
-            string son = Console.ReadLine();
+            Console.WriteLine("Ma'lumot kiriting: ");
+            string inputData = Console.ReadLine();
             string filePath = "input.txt";
             try
             {
-                File.WriteAllText(filePath, son);
+                File.WriteAllText(filePath, inputData);
                 Console.WriteLine("Ma'lumot {0} fayliga yozildi", filePath);
             }
             catch (Exception e)
@@ -27,7 +27,7 @@ namespace FaylgaWriteQilish
             if (File.Exists(filePath))
             {
                 string satr = File.ReadAllText(filePath);
-                Console.WriteLine("O'qilgan satr: {0}", satr);
+                Console.WriteLine("O'qilgan ma'lumot: {0}", satr);
             }
             else
             {
@@ -35,6 +35,7 @@ namespace FaylgaWriteQilish
             }
 
 
+            // Console Freeze
             Console.ReadLine();
         }
     }
